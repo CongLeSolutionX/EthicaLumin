@@ -210,39 +210,38 @@ config:
   }
 }%%
 mindmap
-  root)"Malicious Hacker 🏴‍☠️"(
+  root)"Targets of Malicious Hackers 🏴‍☠️"(
     ::icon(fa fa-user-secret)
-    Targets{{"Targets"}}
-      Individuals))"Individuals 🧑‍💻"((
-        ::icon(fa fa-user)
-        ("Identity Theft 🆔")
-        ("Financial Fraud 💸")
-        ("Personal Data Compromise 📄")
-        ("Cyberbullying/Harassment 😠")
-      Corporations))"Corporations 🏢"}}
-        ::icon(fa fa-building)
-        ("Data Breaches<br/>(Customer PII, Financials) 📊")
-        (Intellectual Property Theft ©)
-        (Ransomware Attacks 💻💥)
-        (Disruption of Operations ⚙️🛑)
-      Governments_and_Public Sector{{"Governments & Public Sector 🏛️"((
-        ::icon(fa fa-landmark)
-        ("Espionage & Intelligence Gathering 🤫")
-        ("Disruption of Services 🚦")
-        ("Election Interference 🗳️")
-        ("Propaganda & Disinformation 📰")
-      Critical_Infrastructure))"Critical Infrastructure 🏭"((
-        ::icon(fa fa-industry)
-        ("Energy Grids ⚡")
-        ("Water Supplies 💧")
-        ("Healthcare Systems 🏥")
-        ("Transportation Networks 🚆")
-        ("Potential for Physical Harm!")
-      Educational_Institutions))"Educational Institutions 🏫"((
-        ::icon(fa fa-graduation-cap)
-        ("Research Data Theft 🔬")
-        ("Student/Staff PII 🎓")
-        ("Platform for Wider Attacks<br/>(Botnets) 🤖")
+    Individuals))"Individuals 🧑‍💻"((
+      ::icon(fa fa-user)
+      ("Identity Theft 🆔")
+      ("Financial Fraud 💸")
+      ("Personal Data Compromise 📄")
+      ("Cyberbullying/Harassment 😠")
+    Corporations))"Corporations 🏢"}}
+      ::icon(fa fa-building)
+      ("Data Breaches<br/>(Customer PII, Financials) 📊")
+      (Intellectual Property Theft ©)
+      (Ransomware Attacks 💻💥)
+      (Disruption of Operations ⚙️🛑)
+    Governments_and_Public Sector{{"Governments & Public Sector 🏛️"((
+      ::icon(fa fa-landmark)
+      ("Espionage & Intelligence Gathering 🤫")
+      ("Disruption of Services 🚦")
+      ("Election Interference 🗳️")
+      ("Propaganda & Disinformation 📰")
+    Critical_Infrastructure))"Critical Infrastructure 🏭"((
+      ::icon(fa fa-industry)
+      ("Energy Grids ⚡")
+      ("Water Supplies 💧")
+      ("Healthcare Systems 🏥")
+      ("Transportation Networks 🚆")
+      ("Potential for Physical Harm!")
+    Educational_Institutions))"Educational Institutions 🏫"((
+      ::icon(fa fa-graduation-cap)
+      ("Research Data Theft 🔬")
+      ("Student/Staff PII 🎓")
+      ("Platform for Wider Attacks<br/>(Botnets) 🤖")
 ```
 
 *   **Individuals 🧑‍💻:** Targeted for personal information (PII) for identity theft, financial credentials, or as victims of ransomware, phishing, and social engineering. Cyberbullying and harassment also fall into this category.
