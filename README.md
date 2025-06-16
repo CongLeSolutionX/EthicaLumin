@@ -516,9 +516,14 @@ flowchart TD
 ### Getting Started
 
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3eG50aXc1aWZqcWZzMnd6OTgweDI1Zmd6cDRydnV2emtlOHoyZTVpNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1eEv7v51FEI3L54jpr/giphy.gif"/>
+	<img alt="Getting Started" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3J2ZmF5YWd0NnpvdW9zbmVlZXA5NjB2emJocmdjMGs5aWYybTd0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dLolp8dtrYCJi/giphy.gif"/>
+ 	<br/>
+	<em>Powering up…</em>
+	<br/>The scene is from the series <b>Mr. Robot</b>
 	<br/>
-	<em>Powering up… gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+	<a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
+	<br/>
+	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
 
 #### Prerequisites
