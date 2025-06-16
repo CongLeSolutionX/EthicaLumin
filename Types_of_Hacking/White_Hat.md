@@ -261,13 +261,11 @@ sequenceDiagram
 		* `I`: Integrity Impact (None, Low, High) - $I_I$
 		* `A`: Availability Impact (None, Low, High) - $I_A$
 	
-  A simplified conceptual view of an impact sub-score (actual CVSS calculation is more complex):
+A simplified conceptual view of an impact sub-score (actual CVSS calculation is more complex):
+
+$$Impact_{Subscore} \approx 1 - [(1 - w(I_C)) \times (1 - w(I_I)) \times (1 - w(I_A))]$$
 		
-    $$
-    Impact_{Subscore} \approx 1 - [(1 - w(I_C)) \times (1 - w(I_I)) \times (1 - w(I_A))]
-    $$
-		
-  Where $w(I_x)$ represents a weighted value for each impact type. The final CVSS score is a complex function of these base metrics. Pentesters use these scores to help organizations prioritize fixes.
+Where $w(I_x)$ represents a weighted value for each impact type. The final CVSS score is a complex function of these base metrics. Pentesters use these scores to help organizations prioritize fixes.
 
 ---
 
