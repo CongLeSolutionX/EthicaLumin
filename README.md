@@ -61,7 +61,7 @@ config:
   }
 }%%
 flowchart LR
-    Coding_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-cyver-theme.png", label: "Exploring the Digital Maze...", pos: "b", w: 200, h: 150, constraint: "off" }
+    Coding_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-flashlight.png", label: "Exploring the Digital Maze...", pos: "b", w: 200, h: 150, constraint: "off" }
     %% Project_Link{{"<a href='https://github.com/CongLeSolutionX/EthicaLumin' target='_blank'>Discover EthicaLumin</a>"}}
 
     %% Coding_Meme animatingEdge@--> Project_Link
@@ -131,7 +131,7 @@ Whether you are a student learning cybersecurity, a developer aiming to build se
 ### The Challenge & Our Approach
 
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3aTdsd3E5OHF0OHJkaGt0dWNkaGxyanc5NHZtdWNqZWw0MHBkbmFkZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9J7tdYltzXIY0/giphy.gif"/>
+	<img alt="Loading…" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExem93bTZic2pybjh6cW8wZnhiNjkwb2Y1dDg2MGlpZ3pkMThlem5ycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NGh8Gp1M2hkqVEnuZW/giphy.gif"/>
 	<br/>
 	<em>Misconceptions abound. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
@@ -699,7 +699,7 @@ config:
   }
 }%%
 flowchart LR
-    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-cyver-theme.png", label: "Think<br/>before you type...", pos: "b", w: 200, h: 150, constraint: "off" }
+    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-flashlight.png", label: "Think<br/>before you type...", pos: "b", w: 200, h: 150, constraint: "off" }
    
     Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
