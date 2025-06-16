@@ -241,7 +241,7 @@ Ultimately, claiming the label of "hacker" should come with a profound sense of 
 ----
 
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3ZG5tY3QybHBoN3RkbXFob2ZsaXV2cnp0NWJ2dXBqMDI2eHY0Mmt6ZyZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/TkVpDkJY4E5z2/giphy.gif"/>
+	<img alt="Use knowledge wisely" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzQ3ZzN0eXVmZ2FzMGJlMDRxZjZ4MGQzbXMyd25vNmV6bWl4NW5iOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41YerjNzTZVaPH2M/giphy.gif"/>
 	<br/>
 	<em>Use knowledge wisely. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
