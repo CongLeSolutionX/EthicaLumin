@@ -25,8 +25,8 @@ Copyright (c) 2025 Cong Le. All Rights Reserved.
 	  </td>
 	  <td align="center", border="none">
 		<blockquote>
-		  "Fellas, if you got some "skills",<br/>
-		  please dont make "hacker" become a bad term in this era<br/>
+		  "Fellas,<br/>if you got some "skills",<br/>
+		  please dont make "hacker"<br/>become a bad term in this era<br/>
 		  since my bots will eventually know who you are!"
 		</blockquote>
 	  </td>
@@ -154,7 +154,7 @@ The public perception of hacking is heavily influenced by media portrayals that 
 	<em>Turning personal struggle into shared understanding and resolve. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
 
-The creation of `EthicaLumin` isn't just an academic exercise for me. For the past two years, I've personally been the target of persistent cybersecurity attacks and cyberbullying. It's been an incredibly challenging and distressing experience, leaving me feeling vulnerable, frustrated, and often helpless against unseen adversaries. I didn't understand what was happening, why it was happening, or how to adequately defend myself in this complex digital landscape.
+The creation of `EthicaLumin` isn't just an academic exercise for me. For the past two years, I've personally been the target of persistent cybersecurity attacks and cyberbullying since the first releases of the Stable Diffusion models. It's been an incredibly challenging and distressing experience, leaving me feeling vulnerable, frustrated, and often helpless against unseen adversaries. I didn't understand what was happening, why it was happening, or how to adequately defend myself in this complex digital landscape.
 
 This personal journey through the darker side of the internet ignited a fierce desire within me: to understand. To understand the tools, the tactics, and the mindsets involved. But this journey hasn't just been about passive learning; it's fueled a drive to develop my own capabilities for defense and to gain insights into those who operate in the shadows. It's a resolve that if lines are crossed, those responsible should understand that knowledge can also be a shield and a means of bringing clarity to their actions.
 
