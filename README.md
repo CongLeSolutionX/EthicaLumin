@@ -123,7 +123,7 @@ Whether you are a student learning cybersecurity, a developer aiming to build se
     - [Cloning the Repository (Optional)](#cloning-the-repository-optional)
   - [How to Use EthicaLumin](#how-to-use-ethicalumin)
   - [Contributing](#contributing)
-  - [🚀 Project Current Activities](#-project-current-activities)
+- [🚀 Project Current Activities](#-project-current-activities)
   - [License](#license)
   - [**Crucial Disclaimer: Read Before Proceeding**](#crucial-disclaimer-read-before-proceeding)
   - [Markdown and Visualization Resources](#markdown-and-visualization-resources)
@@ -175,7 +175,7 @@ The core aim of `EthicaLumin` remains to provide a visual interpretation layer, 
 #### Our Method
 
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3bzh1ZDZncDBpcXFyd2tkaGZ0dXN2eGJpY2cyamNnaTU2YzY3cDdndSZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/VfDqzZ3Efb67z4qBUi/giphy.gif"/>
+	<img alt="Our Method" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmh4MjA5bWNlbGR3dXA3d2tndnFoemxibWJlZDl4bHlxOHR5bTNnNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XjjbY54MczRdmqK0zP/giphy.gif"/>
 	<br/>
 	<em>Shedding light on complexity. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
@@ -551,11 +551,24 @@ cd EthicaLumin
 
 ### How to Use EthicaLumin
 
+
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3bjR0ZDJjMGRwZDAxeHJmdzU0NXM4a2NiaHB1M2d0bTh1dTZsdTYzMSZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/WoWm8YzSqjL1h9z9nq/giphy.gif"/>
-	<br/>
-	<em>Navigating the knowledge. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+  <img alt="Getting Started" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3d2YWxleGgyMXZmOWVidWJxazIwYzgzYzhrZmFhcXpjMWMyNGRvNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYBP44VVqa2dLnW/giphy.gif"/>
+  <br/>
+  <em>Pick your team first…</em>
+  <br/>
+  <blockquote>
+	  <em>The scene is from the series <b>Mr. Robot</b>
+    <br/>
+    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
+	  <br/>
+	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
+    <br/>
+  </blockquote>
+
 </div>
+
+
 
 1.  **Browse the Repository:** Navigate the folders based on the cybersecurity domain or specific topic you are interested in (e.g., `AttackVectors/SocialEngineering/`, `DefensiveMeasures/NetworkSecurity/`).
 2.  **Read the `README.md`:** Each topic's `README.md` file is the primary entry point. It provides the overview, explanations, and embedded visualizations.
@@ -597,34 +610,29 @@ We are working on the setup for this section. TBD.
 
 ---
 
-### 🚀 Project Current Activities
-
-*(This section would typically display dynamic project activity data. For a new project, it will be blank or can be populated once activity begins.)*
-
-<div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3eWJpMTR2cmJndG52bXp3cGd5dmYwOHdzdjNpb2txdG8zM3h0OTM4dCZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/3o7bu3XilJ5BOiSGic/giphy.gif"/>
-	<br/>
-	<em>Building and growing… gif image is provided by <a href="https://giphy.com">Giphy</a></em>
-</div>
+## 🚀 Project Current Activities
 
 <div align="left"><a name="project-current-activities"></a>
 
-<details>
-<summary>Click to show/hide more on recent activities of this project (Placeholder)</summary>
+<details open>
+<summary>Click to show/hide more on recent activities of this project </summary>
 
-> This section will be powered by [OSS Insight](https://ossinsight.io) once the project is active on GitHub.
-
-<!-- Example images (replace with actual once project is live and has data)
+> powered by [OSS Insight](https://ossinsight.io)
+<!-- All the diagrams below are made with [OSS Insight](https://ossinsight.io/) -->
 
 | :bar_chart: Widget & Description | :art: Snapshot (Light Mode) |
 |---|---|
-| Active Contributors :technologist: of YourUsername/EthicaLumin - Last 28 days | (Placeholder Image or Link to OSS Insight Widget) |
-| Pushes :arrow_up: and Commits :writing_hand: of YourUsername/EthicaLumin | (Placeholder Image or Link to OSS Insight Widget) |
+| Active Contributors :technologist: of CongLeSolutionX/EthicaLumin - Last 28 days | ![Active Contributors of CongLeSolutionX/EthicaLumin - Last 28 days](https://next.ossinsight.io/widgets/official/compose-recent-active-contributors/thumbnail.png?repo_id=1001747248&limit=30&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/compose-recent-active-contributors?repo_id=1001747248&limit=30) |
+| Pushes :arrow_up: and Commits :writing_hand: of CongLeSolutionX/EthicaLumin | ![Pushes and Commits of CongLeSolutionX/EthicaLumin](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=1001747248&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=1001747248) |
+| Pull Request Size :straight_ruler: of CongLeSolutionX/EthicaLumin | ![Pull Request Size of CongLeSolutionX/EthicaLumin](https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month/thumbnail.png?repo_id=1001747248&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month?repo_id=1001747248) |
+| Pull Request Lifecycle :arrows_counterclockwise: of CongLeSolutionX/EthicaLumin | ![Pull Request Lifecycle of CongLeSolutionX/EthicaLumin](https://next.ossinsight.io/widgets/official/analyze-repo-pull-request-open-to-merged/thumbnail.png?repo_id=1001747248&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-pull-request-open-to-merged?repo_id=1001747248) |
+| Lines of Code Changes :computer::scroll: of CongLeSolutionX/EthicaLumin | ![Lines of Code Changes of CongLeSolutionX/EthicaLumin](https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month/thumbnail.png?repo_id=1001747248&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month?repo_id=1001747248) |
+| Commits Time Distribution :alarm_clock::date: of CongLeSolutionX/EthicaLumin | ![Commits Time Distribution of CongLeSolutionX/EthicaLumin](https://next.ossinsight.io/widgets/official/analyze-repo-commits-time-distribution/thumbnail.png?repo_id=1001747248&period=last_1_year&zone=0&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-commits-time-distribution?repo_id=1001747248&period=last_1_year&zone=0) | 
 
--->
 </details>
 
 </div>
+
 
 ---
 
