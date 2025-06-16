@@ -131,7 +131,7 @@ Whether you are a student learning cybersecurity, a developer aiming to build se
 ### The Challenge & Our Approach
 
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3aTdsd3E5OHF0OHJkaGt0dWNkaGxyanc5NHZtdWNqZWw0MHBkbmFkZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9J7tdYltzXIY0/giphy.gif"/>
+	<img alt="Loading…" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExem93bTZic2pybjh6cW8wZnhiNjkwb2Y1dDg2MGlpZ3pkMThlem5ycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NGh8Gp1M2hkqVEnuZW/giphy.gif"/>
 	<br/>
 	<em>Misconceptions abound. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
