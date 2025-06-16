@@ -708,5 +708,6 @@ flowchart LR
   
   animatingEdge@{ animate: true }
 
-
 ```
+
+---

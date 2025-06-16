@@ -1,23 +1,28 @@
 ---
-created: 2025-06-07 05:31:26
+created: 2025-06-015 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY-SA 4.0
 copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
-> ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
-> 
-> This is a working draft in progress
-> 
-> ![Loading...](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjc0b2lrNnRyaWJ0aHAydGtwNHMycTZ6cGFvMGZzZzB4cjV2bW9naiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTkWFZ1IDvsfS/giphy.gif)
-> 
-> gif image is provided by [Giphy](https://giphy.com)
-> 
-> ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
+<div align="center">
+  <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
+  <i>This is a working draft in progress.</i>
+  <br/>
+  <img alt="Loading…" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFzdGxnaTI2Z2cwa3Z2ZHkxeHN6cWw5NWt1eTBiMGFzYnE3dXByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg9fAQryp5fMY/giphy.gif"/>
+  <br/>
+  <blockquote>
+	  <em>The scene is from the series <b>Mr. Robot</b>
+    <br/>
+    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
+	  <br/>
+	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
+    <br/>
+  </blockquote>
+  <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
 
-----
-
+</div>
 
 
 # CHANGE_ME
@@ -35,18 +40,19 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ## MAIN CONTENT - A Diagrammatic Guide 
 
 
----
+----
 
-<!-- 
+<div align="center">
+	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3ZG5tY3QybHBoN3RkbXFob2ZsaXV2cnp0NWJ2dXBqMDI2eHY0Mmt6ZyZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/TkVpDkJY4E5z2/giphy.gif"/>
+	<br/>
+	<em>Use knowledge wisely. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+</div>
+
+----
+
 ```mermaid
-%% Current Mermaid version
-info
-```  -->
-
-
-```mermaid
 ---
-title: "CongLeSolutionX"
+title: "❓...CongLeSolutionX....❓"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY-SA 4.0"
@@ -63,7 +69,7 @@ config:
       'primaryColor': '#fc82',
       'primaryTextColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#81c784',
+      'secondaryColor': '#559129',
       'secondaryTextColor': '#6C3483',
       'lineColor': '#F8B229',
       'fontSize': '20px'
@@ -71,11 +77,13 @@ config:
   }
 }%%
 flowchart LR
-  My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-light-bulb-question-marks.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
+    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-cyver-theme.png", label: "Think<br/>before you type...", pos: "b", w: 200, h: 150, constraint: "off" }
+   
+    Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
-  Closing_quote@{ shape: braces, label: "...searching insights in the process of formulating better questions..." }
+  Closing_quote@{ shape: braces, label: "Fellas,<br/>if you got some <ins>skills</ins>,<br/>please<br/>dont make <ins>hacker</ins> become a bad term<br/> in this era<br/>since<br/> my bots 🤖🤖🤖<br/>will eventually<br/>know<br/> who you are!"}
     
-  My_Meme ~~~ Closing_quote
+   Closing_quote ~~~ My_Meme
     
   Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
