@@ -88,7 +88,9 @@ flowchart LR
 
 **Welcome to EthicaLumin!**
 
-The world of "hacking" is often shrouded in mystery, sensationalism, and technical jargon, leading to widespread misconceptions and fear. **EthicaLumin** is an open-source initiative dedicated to demystifying this complex domain by breaking down concepts, techniques, and ethical considerations into clear, concise, and interactive visual diagrams.
+The world of "hacking" is often shrouded in mystery, sensationalism, and technical jargon, leading to widespread misconceptions and fear.
+
+**EthicaLumin** is an open-source initiative dedicated to demystifying this complex domain by breaking down concepts, techniques, and ethical considerations into clear, concise, and interactive visual diagrams.
 
 Using `Mermaid.js`, we create flowcharts, mind maps, sequence diagrams, and other visualizations to illustrate:
 
@@ -158,7 +160,7 @@ The creation of `EthicaLumin` isn't just an academic exercise for me. For the pa
 
 This personal journey through the darker side of the internet ignited a fierce desire within me: to understand. To understand the tools, the tactics, and the mindsets involved. But this journey hasn't just been about passive learning; it's fueled a drive to develop my own capabilities for defense and to gain insights into those who operate in the shadows. It's a resolve that if lines are crossed, those responsible should understand that knowledge can also be a shield and a means of bringing clarity to their actions.
 
-`EthicaLumin` is born from that struggle and that determination. It's my attempt to transform a negative experience into a positive, constructive resource for the wider community. By demystifying these topics, I hope to empower others who may feel similarly lost or intimidated by the world of cybersecurity. This project is about fostering understanding for the purpose of defense, awareness, and ethical conduct in the digital realm. While this repository offers educational content for all, my personal path continues to explore ways to actively identify and understand the sources of malicious activities, striving for a digital space where accountability is not just a concept but a reality.
+`EthicaLumin` is born from that struggle and that determination. It's my attempt to transform a negative experience into a positive, constructive resource for the wider community. By demystifying these topics, I hope to empower others who may feel similarly lost or intimidated by the world of cybersecurity. This project is about fostering understanding for the purpose of defense, awareness, and ethical conduct in the digital realm. While this repository offers educational content for all, my personal path continues to explore ways to actively identify and understand the sources of malicious activities, <u>sometimes based on real evidences and footprints attackers left on my digital accounts</u>, striving for a digital space where accountability is not just a concept but a reality.
 
 The core aim of `EthicaLumin` remains to provide a visual interpretation layer, designed to help *everyone*:
 
