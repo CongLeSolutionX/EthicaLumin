@@ -239,28 +239,39 @@ sequenceDiagram
     end
 ```
 
-*   **Mathematical Context - Simplified Risk & Vulnerability Scoring:**
-		In pentesting reports, vulnerabilities are often prioritized based on risk. A common qualitative formula is:
-		$Risk = Likelihood \times Impact$
-		* $Likelihood$: The probability of a vulnerability being exploited.
-		* $Impact$: The potential damage (financial, reputational, operational) if the vulnerability is exploited.
+* **Mathematical Context - Simplified Risk & Vulnerability Scoring:**
+	In pentesting reports, vulnerabilities are often prioritized based on risk. A common qualitative formula is:
+	$Risk = Likelihood \times Impact$
+	* $Likelihood$: The probability of a vulnerability being exploited.
+	* $Impact$: The potential damage (financial, reputational, operational) if the vulnerability is exploited.
 
 	For a more standardized, quantitative approach, the [**Common Vulnerability Scoring System (CVSS)**](https://www.first.org/cvss/) is widely used. The CVSS provides a numerical score (0-10) reflecting severity. For example, the CVSS v3.1 Base Score is derived from metrics like:
-		* **Exploitability Metrics:**
-			* `AV`: Attack Vector (Physical, Local, Adjacent Network, Network)
-			* `AC`: Attack Complexity (Low, High)
-			* `PR`: Privileges Required (None, Low, High)
-			* `UI`: User Interaction (None, Required)
-		* **Scope Metric:**
-			* `S`: Scope (Unchanged, Changed) - Can an exploit impact components beyond its security scope?
-		* **Impact Metrics:** (Assessing impact on Confidentiality, Integrity, Availability)
-			* `C`: Confidentiality Impact (None, Low, High) - $I_C$
-			* `I`: Integrity Impact (None, Low, High) - $I_I$
-			* `A`: Availability Impact (None, Low, High) - $I_A$
-		A simplified conceptual view of an impact sub-score (actual CVSS calculation is more complex):
-		$Impact_{Subscore} \approx 1 - [(1 - w(I_C)) \times (1 - w(I_I)) \times (1 - w(I_A))]$
-		Where $w(I_x)$ represents a weighted value for each impact type. The final CVSS score is a complex function of these base metrics. Pentesters use these scores to help organizations prioritize fixes.
-		*Reference: [FIRST.Org CVSSv3.1 Specification](https://www.first.org/cvss/v3-1/specification-document)*
+
+	* **Exploitability Metrics:**
+		* `AV`: Attack Vector (Physical, Local, Adjacent Network, Network)
+		* `AC`: Attack Complexity (Low, High)
+		* `PR`: Privileges Required (None, Low, High)
+		* `UI`: User Interaction (None, Required)
+	
+  * **Scope Metric:**
+		* `S`: Scope (Unchanged, Changed) - Can an exploit impact components beyond its security scope?
+	
+  * **Impact Metrics:** (Assessing impact on Confidentiality, Integrity, Availability)
+		* `C`: Confidentiality Impact (None, Low, High) - $I_C$
+		* `I`: Integrity Impact (None, Low, High) - $I_I$
+		* `A`: Availability Impact (None, Low, High) - $I_A$
+	
+  A simplified conceptual view of an impact sub-score (actual CVSS calculation is more complex):
+		
+    $$
+    Impact_{Subscore} \approx 1 - [(1 - w(I_C)) \times (1 - w(I_I)) \times (1 - w(I_A))]
+    $$
+		
+  Where $w(I_x)$ represents a weighted value for each impact type. The final CVSS score is a complex function of these base metrics. Pentesters use these scores to help organizations prioritize fixes.
+
+---
+
+  *Reference: [FIRST.Org CVSSv3.1 Specification](https://www.first.org/cvss/v3-1/specification-document)*
 
 ---
 
