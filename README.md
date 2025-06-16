@@ -684,7 +684,7 @@ config:
   }
 }%%
 flowchart LR
-    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought.png", label: "Think Before You Type...", pos: "b", w: 200, h: 150, constraint: "off" }
+    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-cyver-theme.png", label: "Think Before You Type...", pos: "b", w: 200, h: 150, constraint: "off" }
    
     Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
