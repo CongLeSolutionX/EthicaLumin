@@ -230,10 +230,12 @@ sequenceDiagram
     
     Pentester->>Client: 📊 Deliver Detailed Report & Recommendations
     Client->>Client: 🛠️ Internal Remediation Efforts
+    rect rgb(20, 15, 255, 0.3)
     opt Retest
         Client->>Pentester: Request Verification Testing
         Pentester->>TargetSystem: ✅ Verify Fixes
         Pentester->>Client: Deliver Verification Report
+    end
     end
 ```
 
