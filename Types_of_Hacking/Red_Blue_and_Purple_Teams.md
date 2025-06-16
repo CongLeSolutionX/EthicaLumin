@@ -46,7 +46,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ## 🛡️⚔️ Red, Blue, and Purple Teams: The Cybersecurity Exercise Ecosystem 🤝
 
 <div align="center">
-	<img alt="Red, Blue, Purple Teams Interacting" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3aGhjbHlqOGw0dXZxNXd0N2JqZ3Z2aGdrdHVndDFiNnR1YW15MnhkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Htitlesq4EOY6M9TDR7/giphy.gif"/>
+	<img alt="Red, Blue, Purple Teams Interacting" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWI1dWl0ZnVpbTlsM2w0OW44bm5uaWVrdjBiNnZkdHJ3cWpwMDFtMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPukRF2h9rqh5XG/giphy.gif"/>
 	<br/>
 	<em>Simulating the battlefield: Attack, Defend, Learn. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
