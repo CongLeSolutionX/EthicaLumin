@@ -647,6 +647,23 @@ We are working on the setup for this section. TBD.
 </div>
 
 
+<div align="center">
+  <img alt="Getting Started" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2FiMTNvNWQ3OHNva2NsdHZvZnJqNzY2d3Zkd3U3MzlhN3gybThuNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41YAIdPpVdgAh0eA/giphy.gif"/>
+  <br/>
+  <em>Teamwork makes the dream work.</em>
+  <br/>
+  <blockquote>
+	  <em>The scene is from the series <b>Mr. Robot</b>
+    <br/>
+    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
+	  <br/>
+	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
+    <br/>
+  </blockquote>
+
+</div>
+
+
 ---
 
 ### License
