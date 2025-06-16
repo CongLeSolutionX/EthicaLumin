@@ -198,7 +198,7 @@ config:
 }%%
 sequenceDiagram
     actor Client
-    
+
     box rgb(202, 12, 22, 0.1) The System
       actor Pentester
       participant TargetSystem as Target Systems/Network
@@ -210,15 +210,18 @@ sequenceDiagram
     Pentester-->>Client: (Interim updates if agreed)
     
     alt Vulnerability Found
-    
+      rect rgb(200, 15, 255, 0.1)
         Pentester->>TargetSystem: 🎯 Attempt Exploitation
         alt Successful Exploit
             Pentester->>TargetSystem: 🚀 Post-Exploitation<br/>(Escalate, Pivot, Assess)
         else Unsuccessful / Out of Scope
             Pentester-->>Pentester: Document Finding
         end
+      end
     else No Exploitable Vuln
+      rect rgb(200, 15, 255, 0.3)
         Pentester-->>Pentester: Document Assessment
+      end
     end
     
     Pentester->>Client: 📊 Deliver Detailed Report & Recommendations
