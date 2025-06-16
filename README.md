@@ -516,15 +516,21 @@ flowchart TD
 ### Getting Started
 
 <div align="center">
-	<img alt="Getting Started" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3J2ZmF5YWd0NnpvdW9zbmVlZXA5NjB2emJocmdjMGs5aWYybTd0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dLolp8dtrYCJi/giphy.gif"/>
- 	<br/>
-	<em>Powering up…</em>
-	<br/>The scene is from the series <b>Mr. Robot</b>
-	<br/>
-	<a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	<br/>
-	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+  <img alt="Getting Started" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3J2ZmF5YWd0NnpvdW9zbmVlZXA5NjB2emJocmdjMGs5aWYybTd0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dLolp8dtrYCJi/giphy.gif"/>
+  <br/>
+  <em>Powering up…</em>
+  <br/>
+  <blockquote>
+	  <em>The scene is from the series <b>Mr. Robot</b>
+    <br/>
+    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
+	  <br/>
+	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
+    <br/>
+  </blockquote>
+
 </div>
+
 
 #### Prerequisites
 
