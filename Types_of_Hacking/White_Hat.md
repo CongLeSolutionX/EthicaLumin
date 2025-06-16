@@ -47,7 +47,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ## The Spectrum of Hacking: Motivations and Methodologies
 
 <div align="center">
-	<img alt="Ethical Hacking vs Malicious Hacking" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3bDNsczNtdGNqaHI2dHExYjk4Z3h2bHhnc3JicHpucnpkbnY1dHgzNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NvTRY392rsnS5y0RBr/giphy.gif"/>
+	<img alt="Ethical Hacking vs Malicious Hacking" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmUwdHNycTh4bmpmYjZoNDR5aGkya2dmZm8xemczbmZtZnlmZnlvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohs83M0w7H0pP2Vj2/giphy.gif"/>
 	<br/>
 	<em>Understanding the different faces of hacking. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
