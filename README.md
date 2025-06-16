@@ -61,7 +61,7 @@ config:
   }
 }%%
 flowchart LR
-    Coding_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought.png", label: "Exploring the Digital Maze...", pos: "b", w: 200, h: 150, constraint: "off" }
+    Coding_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-questions-magnifying-glass-tangled-lines-bubble-thought-cyver-theme.png", label: "Exploring the Digital Maze...", pos: "b", w: 200, h: 150, constraint: "off" }
     %% Project_Link{{"<a href='https://github.com/CongLeSolutionX/EthicaLumin' target='_blank'>Discover EthicaLumin</a>"}}
 
     %% Coding_Meme animatingEdge@--> Project_Link
