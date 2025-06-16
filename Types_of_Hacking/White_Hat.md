@@ -198,8 +198,11 @@ config:
 }%%
 sequenceDiagram
     actor Client
-    participant Pentester
-    participant TargetSystem as Target Systems/Network
+
+    box rgb(202, 12, 22, 0.1) The System
+      actor Pentester
+      participant TargetSystem as Target Systems/Network
+    end
 
     Client->>Pentester: 📝 Request Pentest & Define Scope/RoE
     Pentester->>TargetSystem: 🕵️ Reconnaissance <br/>(Passive & Active)
@@ -207,22 +210,32 @@ sequenceDiagram
     Pentester-->>Client: (Interim updates if agreed)
     
     alt Vulnerability Found
+      rect rgb(200, 15, 255, 0.1)
         Pentester->>TargetSystem: 🎯 Attempt Exploitation
         alt Successful Exploit
+          rect rgb(200, 150, 20, 0.1)
             Pentester->>TargetSystem: 🚀 Post-Exploitation<br/>(Escalate, Pivot, Assess)
+          end
         else Unsuccessful / Out of Scope
+          rect rgb(200, 150, 20, 0.3)
             Pentester-->>Pentester: Document Finding
+          end
         end
+      end
     else No Exploitable Vuln
+      rect rgb(200, 15, 255, 0.3)
         Pentester-->>Pentester: Document Assessment
+      end
     end
     
     Pentester->>Client: 📊 Deliver Detailed Report & Recommendations
     Client->>Client: 🛠️ Internal Remediation Efforts
+    rect rgb(20, 15, 255, 0.3)
     opt Retest
         Client->>Pentester: Request Verification Testing
         Pentester->>TargetSystem: ✅ Verify Fixes
         Pentester->>Client: Deliver Verification Report
+    end
     end
 ```
 
