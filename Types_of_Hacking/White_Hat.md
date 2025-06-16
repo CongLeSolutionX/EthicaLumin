@@ -213,9 +213,13 @@ sequenceDiagram
       rect rgb(200, 15, 255, 0.1)
         Pentester->>TargetSystem: 🎯 Attempt Exploitation
         alt Successful Exploit
+          rect rgb(200, 150, 20, 0.1)
             Pentester->>TargetSystem: 🚀 Post-Exploitation<br/>(Escalate, Pivot, Assess)
+          end
         else Unsuccessful / Out of Scope
+          rect rgb(200, 150, 20, 0.3)
             Pentester-->>Pentester: Document Finding
+          end
         end
       end
     else No Exploitable Vuln
