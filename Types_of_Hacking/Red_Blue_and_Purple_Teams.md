@@ -182,7 +182,7 @@ sequenceDiagram
     RT->>Org: 1. Planning & Scoping <br/>(Rules of Engagement defined) 📜
     Note over RT,Org: Clear objectives, target systems, allowed methods.
 
-    RT->>Org: 2. Reconnaissance (Passive & Active) 🕵️‍♂️
+    RT->>Org: 2. Reconnaissance<br/>(Passive & Active) 🕵️‍♂️
     Note right of RT: OSINT, network scanning (approved), vulnerability identification.
 
     RT->>Org: 3. Weaponization & Exploitation 🛠️💣
