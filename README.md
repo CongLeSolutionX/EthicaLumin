@@ -11,7 +11,7 @@ Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 > ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
 >
-> This is a working draft in progress. Content is for educational and informational purposes only.
+> This is a working draft in progress. Content is for educational (<ins>sometimes, entertaining </ins>) and informational purposes only.
 
 <div align="center">
   <table style="border: none">
