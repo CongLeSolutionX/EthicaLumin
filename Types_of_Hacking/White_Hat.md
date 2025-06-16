@@ -10,13 +10,13 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
   <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
   <i>This is a working draft in progress.</i>
   <br/>
-  <img alt="Loading…" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFzdGxnaTI2Z2cwa3Z2ZHkxeHN6cWw5NWt1eTBiMGFzYnE3dXByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg9fAQryp5fMY/giphy.gif"/>
+  <img alt="White Hat Hacker" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG56MnZ2Ymp4bWQybnFtY3p5ZDY4dXhwOWdzNml6bTc5dWpwOHhtYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLPQ6z2hlHmwFc4Hso/giphy.gif"/>
   <br/>
   <blockquote>
-	  <em>The scene is from the series <b>Mr. Robot</b>
+<!-- 	  <em>The scene is from the series <b>Mr. Robot</b>
     <br/>
     <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	  <br/>
+	  <br/> -->
 	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
     <br/>
   </blockquote>
@@ -47,7 +47,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ## The Spectrum of Hacking: Motivations and Methodologies
 
 <div align="center">
-	<img alt="Ethical Hacking vs Malicious Hacking" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3bDNsczNtdGNqaHI2dHExYjk4Z3h2bHhnc3JicHpucnpkbnY1dHgzNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NvTRY392rsnS5y0RBr/giphy.gif"/>
+	<img alt="Ethical Hacking vs Malicious Hacking" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmUwdHNycTh4bmpmYjZoNDR5aGkya2dmZm8xemczbmZtZnlmZnlvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohs83M0w7H0pP2Vj2/giphy.gif"/>
 	<br/>
 	<em>Understanding the different faces of hacking. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>

@@ -10,13 +10,13 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
   <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
   <i>This is a working draft in progress.</i>
   <br/>
-  <img alt="Loading…" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFzdGxnaTI2Z2cwa3Z2ZHkxeHN6cWw5NWt1eTBiMGFzYnE3dXByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg9fAQryp5fMY/giphy.gif"/>
+  <img alt="Loading…" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDY0NWRiem8wMjloMDBxaXc1eW02aXJrMDg0MHR1dnB6dWU3bmF6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q1XkC265ZHhe0/giphy.gif"/>
   <br/>
   <blockquote>
-	  <em>The scene is from the series <b>Mr. Robot</b>
+<!-- 	  <em>The scene is from the series <b>Mr. Robot</b>
     <br/>
     <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	  <br/>
+	  <br/> -->
 	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
     <br/>
   </blockquote>
@@ -46,7 +46,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ## 🛡️⚔️ Red, Blue, and Purple Teams: The Cybersecurity Exercise Ecosystem 🤝
 
 <div align="center">
-	<img alt="Red, Blue, Purple Teams Interacting" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3aGhjbHlqOGw0dXZxNXd0N2JqZ3Z2aGdrdHVndDFiNnR1YW15MnhkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Htitlesq4EOY6M9TDR7/giphy.gif"/>
+	<img alt="Red, Blue, Purple Teams Interacting" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWI1dWl0ZnVpbTlsM2w0OW44bm5uaWVrdjBiNnZkdHJ3cWpwMDFtMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPukRF2h9rqh5XG/giphy.gif"/>
 	<br/>
 	<em>Simulating the battlefield: Attack, Defend, Learn. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
@@ -182,7 +182,7 @@ sequenceDiagram
     RT->>Org: 1. Planning & Scoping <br/>(Rules of Engagement defined) 📜
     Note over RT,Org: Clear objectives, target systems, allowed methods.
 
-    RT->>Org: 2. Reconnaissance (Passive & Active) 🕵️‍♂️
+    RT->>Org: 2. Reconnaissance<br/>(Passive & Active) 🕵️‍♂️
     Note right of RT: OSINT, network scanning (approved), vulnerability identification.
 
     RT->>Org: 3. Weaponization & Exploitation 🛠️💣

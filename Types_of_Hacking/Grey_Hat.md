@@ -10,13 +10,12 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
   <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
   <i>This is a working draft in progress.</i>
   <br/>
-  <img alt="Loading…" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFzdGxnaTI2Z2cwa3Z2ZHkxeHN6cWw5NWt1eTBiMGFzYnE3dXByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg9fAQryp5fMY/giphy.gif"/>
+  <img alt="Grey Hat HAcker" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXZ1dTJpbHA2NmxoMGVpNGdkNHFkMHUyNmJ3ejJkZXprbXRvbzc0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cfiid6I8YDKqrCxAaY/giphy.gif"/>
   <br/>
   <blockquote>
-	  <em>The scene is from the series <b>Mr. Robot</b>
+<!-- 	  <em>The scene is from the series <b>Mr. Robot</b>
     <br/>
-    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	  <br/>
+    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em><br/> -->
 	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
     <br/>
   </blockquote>
@@ -50,7 +49,7 @@ The term "Grey Hat Hacker" refers to an individual who operates in the ambiguous
 The core of the "grey" area lies in their motivations and subsequent actions after discovering a vulnerability. While they might believe their actions are for an ultimate "good" (like notifying an organization of a flaw), the initial unauthorized access itself is typically illegal and ethically questionable. This behavior complicates the cybersecurity landscape, blurring lines and often creating difficult situations for both the individual and the targeted organization.
 
 <div align="center">
-	<img alt="Grey Hat Hacker navigating a digital maze" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3NHNucWNiMmozOTZuNTNhaDFjeXE1MTluZzM3bnh2OWpxZGc3d2E2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41YmiY2MmMQ6q67m/giphy.gif"/>
+	<img alt="Grey Hat Hacker navigating a digital maze" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHU4bWV0ano3dGtnajg2eXNmdWYyMndmOWk0OGtyYzU3YTNraWIyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHNmmtHvcXSqc8M/giphy.gif"/>
 	<br/>
 	<em>Navigating the fine lines of digital ethics and legality. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
@@ -242,7 +241,7 @@ Ultimately, claiming the label of "hacker" should come with a profound sense of 
 ----
 
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3ZG5tY3QybHBoN3RkbXFob2ZsaXV2cnp0NWJ2dXBqMDI2eHY0Mmt6ZyZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/TkVpDkJY4E5z2/giphy.gif"/>
+	<img alt="Use knowledge wisely" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzQ3ZzN0eXVmZ2FzMGJlMDRxZjZ4MGQzbXMyd25vNmV6bWl4NW5iOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41YerjNzTZVaPH2M/giphy.gif"/>
 	<br/>
 	<em>Use knowledge wisely. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
 </div>
