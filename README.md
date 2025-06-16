@@ -217,17 +217,17 @@ config:
     'themeVariables': {
       'primaryColor': '#007ACC',
       'primaryTextColor': '#FFFFFF',
-      'primaryBorderColor': '#00A4EF',
-      'secondaryColor': '#EEEEEE',
-      'secondaryTextColor': '#333333',
-      'secondaryBorderColor': '#CCCCCC',
+      'primaryBorderColor': '#A4EF',
+      'secondaryColor': '#E2EE',
+      'secondaryTextColor': '#333',
+      'secondaryBorderColor': '#C3D2',
       'fontSize': '16px'
     }
   }
 }%%
 mindmap
-    root)"Hacking & Cybersecurity"(
-        Core_Concepts))"Core Concepts"((
+    root)"**Hacking & Cybersecurity**"(
+        Core_Concepts))"**Core Concepts**"((
             Cybersecurity_Triad(Confidentiality, Integrity, Availability)
             Vulnerabilities(Definition, Types, Common Examples - e.g., CWE Top 25)
             Exploits(Definition, How they leverage vulnerabilities)
@@ -236,7 +236,7 @@ mindmap
             Risk_Management(Assessment, Mitigation, Acceptance, Transfer)
             Zero_Trust_Architecture(Principles, Implementation)
             Incident_Response(Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned - NIST SP 800-61)
-        Hacking_Spectrum))"The Hacking Spectrum"((
+        Hacking_Spectrum))"**The Hacking Spectrum**"((
             Ethical_Hacking_White_Hat("Ethical Hacking (White Hat)")
                 Penetration_Testing(Scope, Rules of Engagement, Phases: Recon, Scanning, Exploitation, Post-Exploitation, Reporting)
                 Vulnerability_Assessment(Identifying weaknesses without exploitation)
@@ -250,7 +250,7 @@ mindmap
                 Red_Team(Simulates attacks)
                 Blue_Team(Defends against attacks)
                 Purple_Team(Facilitates communication & learning between Red/Blue)
-        Common_Attack_Vectors))"Common Attack Vectors"((
+        Common_Attack_Vectors))"**Common Attack Vectors**"((
             Social_Engineering
                 Phishing_Spear_Phishing_Whaling("Deceptive emails, messages, calls - [Anti-Phishing Working Group (APWG)](https://apwg.org/)")
                 Pretexting(Creating a fabricated scenario)
@@ -279,7 +279,7 @@ mindmap
                 Rogue_Access_Points
                 Evil_Twin_Attack
             Physical_Security_Breaches(Dumpster Diving, Shoulder Surfing)
-        Defensive_Measures_&_Technologies))"Defensive Measures & Technologies"((
+        Defensive_Measures_&_Technologies))"**Defensive Measures & Technologies**"((
             Perimeter_Security
                 Firewalls(Network, Web Application Firewalls - WAF)
                 Intrusion_Detection_Systems_IDS_Intrusion_Prevention_Systems_IPS
@@ -304,7 +304,7 @@ mindmap
                 Threat_Modeling
                 Secure_Coding_Practices(Input Validation, Output Encoding)
                 Static_Dynamic_Application_Security_Testing_SAST_DAST
-        Tools_of_the_Trade_Conceptual))"Tools of the Trade (Conceptual Overview)"((
+        Tools_of_the_Trade_Conceptual))"**Tools of the Trade (Conceptual Overview)**"((
             Network_Scanners("Nmap - [Nmap Official Site](https://nmap.org/)")
             Vulnerability_Scanners(Nessus, OpenVAS)
             Exploitation_Frameworks("Metasploit Framework - [Metasploit Official Site](https://www.metasploit.com/)")
@@ -312,7 +312,7 @@ mindmap
             Web_Proxies("Burp Suite, OWASP ZAP - [OWASP ZAP Project](https://www.zaproxy.org/)")
             Password_Crackers(John the Ripper, Hashcat)
             Operating_Systems_for_Security("Kali Linux, Parrot OS - [Kali Linux Official Site](https://www.kali.org/)")
-        Legal_Ethical_&_Career_Aspects))"Legal, Ethical & Career Aspects"((
+        Legal_Ethical_&_Career_Aspects))"**Legal, Ethical & Career Aspects**"((
             Relevant_Laws_&_Regulations
                 Computer_Fraud_and_Abuse_Act_CFAA_US
                 GDPR_Data_Breach_Aspects_EU
@@ -320,7 +320,7 @@ mindmap
             Responsible_Disclosure_&_Bug_Bounties(Platforms like HackerOne, Bugcrowd)
             Ethical_Codes_of_Conduct(ISC_2_Code_of_Ethics, SANS Code of Ethics)
             Certifications_&_Careers("CISSP, CEH, OSCP, CompTIA Security+ - [CompTIA Security+](https://www.comptia.org/certifications/security)")
-        Myth_Busting))"Myth Busting"((
+        Myth_Busting))"**Myth Busting**"((
             "All Hackers are Malicious Criminals"
             "Hacking is Always Illegal"
             "You Need to be a Genius to Hack"
