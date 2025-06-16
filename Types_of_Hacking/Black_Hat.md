@@ -13,10 +13,10 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
   <img alt="Black Hat Hacker" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG15bHo1ZjA5dXJzenpuZWtydnJteDRydG9lcm0xa25ucjI3MzhtdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/115BJle6N2Av0A/giphy.gif"/>
   <br/>
   <blockquote>
-	  <em>The scene is from the series <b>Mr. Robot</b>
+<!-- 	  <em>The scene is from the series <b>Mr. Robot</b>
     <br/>
     <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	  <br/>
+	  <br/> -->
 	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
     <br/>
   </blockquote>
