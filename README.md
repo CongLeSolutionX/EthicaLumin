@@ -581,11 +581,24 @@ cd EthicaLumin
 
 ### Contributing
 
+
 <div align="center">
-	<img alt="Loading…" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTc3bW04cHg1aHl6eWZkaGoyZGxzbDc0ZGl0aGZtN2Y5ZG00MTRuNnNidCZlcD12MV9pbnRlcm5hbF_naWZfYnlfaWQmY3Q9Zw/l0Heppn0662N3xc3u/giphy.gif"/>
-	<br/>
-	<em>Teamwork makes the dream work. gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+  <img alt="Getting Started" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExenV6bTJoejhjMDJhbmczOGY0N29weGR1bXF3bm4yaGJ6b2FrcmxiayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/shBWqBgyX2HTy/giphy.gif"/>
+  <br/>
+  <em>Teamwork makes the dream work.</em>
+  <br/>
+  <blockquote>
+	  <em>The scene is from the series <b>Mr. Robot</b>
+    <br/>
+    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
+	  <br/>
+	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
+    <br/>
+  </blockquote>
+
 </div>
+
+
 
 Contributions are vital to making `EthicaLumin` a comprehensive and accurate educational resource! We welcome additions, corrections, and improvements that align with the project's ethical and educational goals.
 We are working on the setup for this section. TBD.
