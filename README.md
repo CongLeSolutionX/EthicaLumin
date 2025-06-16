@@ -418,30 +418,34 @@ This simplified flowchart illustrates the basic mechanism of an SQL Injection (S
 title: "Simplified SQL Injection (SQLi) Attack Flow"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  look: handDrawn
   theme: base
+  look: handDrawn
 ---
-%%%%%%%% Mermaid version v11.4.1-b.14 or compatible
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'graph': { 'htmlLabels': false, 'curve': 'basis' },
-    'fontFamily': 'Arial, sans-serif',
+    'flowchart': { 'htmlLabels': true, 'curve': 'basis' },
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'themeVariables': {
-      'primaryColor': '#D32F2F',    %% Red for attack
-      'primaryTextColor': '#FFFFFF',
-      'primaryBorderColor': '#B71C1C',
-      'secondaryColor': '#4CAF50',  %% Green for normal/defense
-      'secondaryTextColor': '#FFFFFF',
-      'lineColor': '#757575',
-      'fontSize': '14px'
+      'primaryColor': '#22BB',
+      'primaryTextColor': '#F8B229',
+      'lineColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#E2F1',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
     }
   }
 }%%
-graph TD
+flowchart TD
     subgraph User_Browser["User Browser"]
     style User_Browser fill:#000,stroke:#333,stroke-width:1px, color: #FFF
         A["User Interacts with Web Form<br/>(e.g., Login, Search)"]
@@ -478,18 +482,18 @@ graph TD
     F -- Safe Query --> G_Normal["Database Returns Expected Data /<br/>Performs Normal Operation"]
     G_Normal --> H_User_Normal["User Receives Normal Application Response"]
 
-    style A fill:#E3F2FD,stroke:#333,stroke-width:1px %% Light blue for user
-    style B fill:#FFF9C4,stroke:#333,stroke-width:1px %% Yellow for server process
-    style C fill:#FFE0B2,stroke:#333,stroke-width:1px %% Orange for decision
-    style D_Unsafe fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px %% Light red for vulnerable path
-    style D_Safe fill:#C8E6C9,stroke:#2E7D32,stroke-width:2px   %% Light green for safe path
-    style D fill:#FFF9C4,stroke:#333,stroke-width:1px
-    style E fill:#FFF9C4,stroke:#333,stroke-width:1px
-    style F fill:#B3E5FC,stroke:#333,stroke-width:1px %% Light blue for DB
-    style G_Compromised fill:#EF9A9A,stroke:#D32F2F,stroke-width:2px %% Red for compromised
+    style A fill:#EFD3,stroke:#333,stroke-width:1px %% Light blue for user
+    style B fill:#F9C4,stroke:#333,stroke-width:1px %% Yellow for server process
+    style C fill:#FFB2,stroke:#333,stroke-width:1px %% Orange for decision
+    style D_Unsafe fill:#FCD2,stroke:#B71C1C,stroke-width:2px %% Light red for vulnerable path
+    style D_Safe fill:#C8E9,stroke:#2E7D32,stroke-width:2px   %% Light green for safe path
+    style D fill:#F9C4,stroke:#333,stroke-width:1px
+    style E fill:#F9C4,stroke:#333,stroke-width:1px
+    style F fill:#B5FC,stroke:#333,stroke-width:1px %% Light blue for DB
+    style G_Compromised fill:#E39A,stroke:#D32F2F,stroke-width:2px %% Red for compromised
     style H_Attacker_Success fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#FFFFFF %% Dark Red for attacker win
-    style G_Normal fill:#A5D6A7,stroke:#388E3C,stroke-width:2px     %% Green for normal result
-    style H_User_Normal fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#FFFFFF %% Dark Green for user normal
+    style G_Normal fill:#A6D7,stroke:#388E3C,stroke-width:2px     %% Green for normal result
+    style H_User_Normal fill:#EF22,stroke:#2E7D32,stroke-width:2px,color:#FFFFFF %% Dark Green for user normal
 ```
 
 **Diagram Explanation:**
