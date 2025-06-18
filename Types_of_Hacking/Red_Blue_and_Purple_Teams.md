@@ -410,7 +410,7 @@ In conclusion, the Red, Blue, and Purple team paradigm represents a sophisticate
 *   **NIST Special Publication 800-115:** Technical Guide to Information Security Testing and Assessment ([NIST SP 800-115](https://csrc.nist.gov/publications/detail/sp/800-115/final))
 *   **NIST Special Publication 800-53:** Security and Privacy Controls for Information Systems and Organizations ([NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final))
 *   **MITRE ATT&CK® Framework:** ([MITRE ATT&CK®](https://attack.mitre.org/)) - A globally-accessible knowledge base of adversary tactics and techniques.
-*   **SANS Institute:** Offers numerous courses and resources on Red, Blue, and Purple Teaming (e.g., [SANS SEC564: Red Team Exercises and Adversary Emulation](https://www.sans.org/cyber-security-courses/red-team-exercises-adversary-emulation/), [SANS SEC599: Defeating Advanced Adversaries - Purple Team Tactics & Kill Chain Defenses](https://www.sans.org/cyber-security-courses/defeating-advanced-adversaries-purple-team-kill-chain-defenses/)).
+*   **SANS Institute:** Offers numerous courses and resources on Red, Blue, and Purple Teaming (e.g., [SANS SEC564: Red Team Exercises and Adversary Emulation](https://www.sans.org/cyber-security-courses/red-team-exercises-adversary-emulation/), ~~[SANS SEC599: Defeating Advanced Adversaries - Purple Team Tactics & Kill Chain Defenses](https://www.sans.org/cyber-security-courses/defeating-advanced-adversaries-purple-team-kill-chain-defenses/)~~).
 
 ----
 
