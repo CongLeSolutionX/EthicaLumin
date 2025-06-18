@@ -221,7 +221,7 @@ The Blue Team is responsible for defending an organization's information systems
 
 **Blue Team Operational Cycle (Simplified Incident Response):**
 
-This cycle is often guided by frameworks like the [NIST Computer Security Incident Handling Guide (SP 800-61)](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final).
+This cycle is often guided by frameworks like the ~~[NIST Computer Security Incident Handling Guide (SP 800-61)](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)~~, ~~which is withdrawn on April 03, 2025. Superseded by~~ [Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (SP 800-61 Rev. 3)](https://csrc.nist.gov/pubs/sp/800/61/r3/final).
 
 ```mermaid
 ---
