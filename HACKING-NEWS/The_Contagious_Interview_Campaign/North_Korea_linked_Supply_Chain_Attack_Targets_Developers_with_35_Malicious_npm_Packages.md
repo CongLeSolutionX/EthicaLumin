@@ -11,15 +11,10 @@ source: https://thehackernews.com/2025/06/north-korea-linked-supply-chain-attack
   <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
   <i>This is a working draft in progress.</i>
   <br/>
-  <img alt="Loading…" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFzdGxnaTI2Z2cwa3Z2ZHkxeHN6cWw5NWt1eTBiMGFzYnE3dXByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg9fAQryp5fMY/giphy.gif"/>
+  <img alt="Loading…" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGdscmljdnV6MWpybGFnNDZha3M4NHEycnZhd2NubDZqYjBjcG1naCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cB0XFZvUo1HirIU4t5/giphy.gif"/>
   <br/>
   <blockquote>
-	  <em>The scene is from the series <b>Mr. Robot</b>
-    <br/>
-    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	  <br/>
 	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
-    <br/>
   </blockquote>
   <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
 
