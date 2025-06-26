@@ -49,6 +49,13 @@ The Socket Threat Research Team has uncovered an extended and ongoing supply cha
 The Diamond Model provides a structured way to analyze cyber intrusion events. Here's how it applies to the HexEval Loader campaign:
 
 ```dot
+/*
+ * title: Diamond Model of Intrusion Analysis
+ * author: Cong Le
+ * version: 1.0
+ * license(s): MIT, CC BY-SA 4.0
+ * copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
+ */
 digraph DiamondModel {
     graph [rankdir=LR, splines=true, overlap=false, nodesep=0.5, ranksep=1.2];
     node [shape=diamond, style=filled, fillcolor=lightblue, fontname="Helvetica"];
@@ -84,12 +91,45 @@ This model highlights the key elements:
 The attack unfolds in a series of steps, from initial contact to potential deep system compromise:
 
 ```mermaid
-graph TD
+---
+title: "⛓️ High-Level Attack Chain"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+  look: handDrawn
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    'securityLevel': 'loose',
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
+    'fontFamily': 'American Typewriter',
+    'themeVariables': {
+      'primaryColor': '#F225E3',
+      'primaryTextColor': '#F8B229',
+      'lineColor': '#F8B229',
+      'primaryBorderColor': '#22E6',
+      'secondaryColor': '#2B2222',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart TD
     A["👨‍💻 Attacker<br/>(DPRK Group)"] -->|Identifies Target via OSINT| B("🎯 Developer/<br/>Job Seeker on LinkedIn")
     B -->|"Receives Fake Recruiter Outreach 📧"| C{"Engages with <i>Recruiter</i>"}
     C -- Yes --> D("Sent <i>Coding Assignment</i> via Google Docs/PDFs")
     D --> E{"Clones Repo / Installs Malicious npm Package"}
-    subgraph Malicious Package Execution
+    
+    subgraph Malicious_Package_Execution["Malicious Package Execution"]
+    style Malicious_Package_Execution fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
     direction LR
         E --> F("HexEval Loader Activates")
         F -->|Collects Host Metadata| G("Sends to C2 Server 📡")
@@ -98,26 +138,27 @@ graph TD
         I -->|"Searches for Sensitive Data 🔑<br>(Browser artifacts, Wallets)"| J
         I -->|"Fetches Stage 3:<br/>InvisibleFerret 🕵️"| K("InvisibleFerret Backdoor Deployed")
     end
+
     E ----> L["Optional:<br/>Keylogger Deployed<br/>(e.g., jsonsecs) ⌨️"]
     K --> M("🔒 Full System Compromise & Persistence")
     J --> M
     L --> M
     C -- No --> N("Attack Ends for this Target")
 
-    style A fill:#ffadad,stroke:#333,stroke-width:2px
-    style B fill:#ffd6a5,stroke:#333,stroke-width:2px
-    style C fill:#fdffb6,stroke:#333,stroke-width:2px
-    style D fill:#caffbf,stroke:#333,stroke-width:2px
-    style E fill:#9bf6ff,stroke:#333,stroke-width:2px
-    style F fill:#a0c4ff,stroke:#333,stroke-width:2px
-    style G fill:#a0c4ff,stroke:#333,stroke-width:2px
-    style H fill:#bdb2ff,stroke:#333,stroke-width:2px
-    style I fill:#bdb2ff,stroke:#333,stroke-width:2px
-    style J fill:#ffc6ff,stroke:#333,stroke-width:2px
-    style K fill:#ffc6ff,stroke:#333,stroke-width:2px
-    style L fill:#9ADCFF,stroke:#333,stroke-width:2px
-    style M fill:#ff6961,stroke:#333,stroke-width:2px
-    style N fill:#e0e0e0,stroke:#333,stroke-width:2px
+    style A fill:#fadad,stroke:#333,stroke-width:1px
+    style B fill:#f615,stroke:#333,stroke-width:1px
+    style C fill:#f26b,stroke:#333,stroke-width:1px
+    style D fill:#2b22,stroke:#333,stroke-width:1px
+    style E fill:#2bf2,stroke:#333,stroke-width:1px
+    style F fill:#a4ff,stroke:#333,stroke-width:1px
+    style G fill:#a4ff,stroke:#333,stroke-width:1px
+    style H fill:#b2f2,stroke:#333,stroke-width:1px
+    style I fill:#b2f2,stroke:#333,stroke-width:1px
+    style J fill:#f2b2,stroke:#333,stroke-width:1px
+    style K fill:#f6f2,stroke:#333,stroke-width:1px
+    style L fill:#9CF2,stroke:#333,stroke-width:1px
+    style M fill:#f961,stroke:#333,stroke-width:1px
+    style N fill:#e0e0,stroke:#333,stroke-width:1px
 ```
 
 -----
@@ -127,6 +168,36 @@ graph TD
 The campaign heavily relies on social engineering, preying on the trust job seekers place in recruiters.
 
 ```mermaid
+---
+title: "🎣 Social Engineering: The Initial Foothold"
+author: "Cong Le"
+version: "0.1"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'sequence': { 'mirrorActors': true, 'showSequenceNumbers': true, 'actorMargin': 50 },
+    'fontFamily': 'Monaco',
+    'themeVariables': {
+      'textColor': '#F8B229',
+      'actorBkg': '#22B8',
+      'actorBorder': '#7C0000',
+      'actorTextColor': '#E2E',
+      'actorLineColor': '#E22E',
+      'activationBkgColor': '#FBBF',
+      'tertiaryColor': '#fff',
+      'fontSize': '15px',
+      'signalColor': '#F93B',
+      'signalTextColor': '#2FBE',
+      'sequenceNumberColor': '#000'
+    }
+  }
+}%%
 sequenceDiagram
     participant TA as Threat Actor 🎭
     actor V as Victim<br/>(Developer) 👨‍💻
@@ -199,10 +270,42 @@ module.exports = () =>
     .catch(() => {});          // Ignore errors
 ```
 
-**Flow of the HexEval Loader:**
+---
+
 
 ```mermaid
-graph TD
+---
+title: "Flow of the HexEval Loader"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+  look: handDrawn
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    'securityLevel': 'loose',
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
+    'fontFamily': 'American Typewriter',
+    'themeVariables': {
+      'primaryColor': '#25E3',
+      'primaryTextColor': '#F8B229',
+      'lineColor': '#F8B229',
+      'primaryBorderColor': '#22E6',
+      'secondaryColor': '#D9B2',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart TD
     Start(("Start:<br/>Package Install/Execution")) --> A["HexEval Loader Code Runs"]
     A --> B{"Define <code>g(h)</code> function"}
     B --> C["Initialize <code>hl</code> array with hex-encoded strings"]
@@ -215,6 +318,7 @@ graph TD
     I --> Stop(("Payload Executed"))
 
     subgraph HostFingerprinting["Optional Reconnaissance"]
+    style HostFingerprinting fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         F1["Collect <code>process.env</code>"]
         F2["Collect <code>os.platform()</code>"]
         F3["Collect <code>os.hostname()</code>"]
@@ -223,14 +327,15 @@ graph TD
         F1 & F2 & F3 & F4 & F5 --> F
     end
 
-    style Start fill:#90EE90,stroke:#333,stroke-width:2px
-    style Stop fill:#FF6961,stroke:#333,stroke-width:2px
-    style G fill:#ADD8E6,stroke:#333,stroke-width:2px
-    style H fill:#FFD700,stroke:#333,stroke-width:2px
-    style HostFingerprinting fill:#FFFACD,stroke:#CCC,stroke-width:1px,color:#555
+    style Start fill:#9E92,stroke:#333,stroke-width:2px
+    style Stop fill:#F961,stroke:#333,stroke-width:2px
+    style G fill:#A8E6,stroke:#333,stroke-width:2px
+    style H fill:#FD75,stroke:#333,stroke-width:2px
+    %% style HostFingerprinting fill:#FFFACD,stroke:#CCC,stroke-width:1px,color:#555
 ```
 
 The C2 servers (`hxxps://log-server-lovat[.]vercel[.]app/api/ipcheck/703`, `hxxps://ip-check-server[.]vercel[.]app/api/ip-check/208`, `hxxps://ip-check-api[.]vercel[.]app/api/ipcheck/703`) often return benign data like IP geolocation or `undefined`, suggesting they selectively serve malicious payloads based on request headers or other runtime conditions to evade detection.
+
 
 ### Stage 1 Variant: The Cross-Platform Keylogger (`jsonsecs`) ⌨️
 
@@ -239,7 +344,38 @@ The npm alias `jtgleason` published a package named `jsonsecs` that included the
 **Keylogger Mechanism in `jsonsecs`:**
 
 ```mermaid
-graph TD
+---
+title: "CHANGE_ME_DADDY"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+  look: handDrawn
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    'securityLevel': 'loose',
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
+    'fontFamily': 'American Typewriter',
+    'themeVariables': {
+      'primaryColor': '#25E3',
+      'primaryTextColor': '#F8B229',
+      'lineColor': '#F8B229',
+      'primaryBorderColor': '#22E6',
+      'secondaryColor': '#D9B2',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart TD
     Start(("<code>jsonsecs</code> Execution")) --> A["Import <code>os</code> module"]
     A --> B{"Detect OS Platform<br/>(<code>os.platform()</code>)"}
     B -- Windows --> C1["Load <code>WinKeyServer</code> binary 🪟"]
@@ -253,14 +389,15 @@ graph TD
     F --> G["Exfiltrate Data /<br/>Real-Time Surveillance 📡"]
     G --> End(("Keystrokes Captured & Sent"))
 
-    style C1 fill:#87CEFA,stroke:#333,stroke-width:1px
-    style C2 fill:#D3D3D3,stroke:#333,stroke-width:1px
-    style C3 fill:#FFD700,stroke:#333,stroke-width:1px
-    style E fill:#FFA07A,stroke:#333,stroke-width:1px
-    style G fill:#FF6347,stroke:#333,stroke-width:1px
+    style C1 fill:#8EF2,stroke:#333,stroke-width:1px
+    style C2 fill:#D3D3,stroke:#333,stroke-width:1px
+    style C3 fill:#FF22,stroke:#333,stroke-width:1px
+    style E fill:#F07A,stroke:#333,stroke-width:1px
+    style G fill:#F347,stroke:#333,stroke-width:1px
 ```
 
 This demonstrates the attackers' ability to tailor payloads for deeper surveillance on specific targets.
+
 
 ### Stage 2: BeaverTail Malware 🦫
 
@@ -269,13 +406,45 @@ Retrieved by the HexEval loader (e.g., from `172[.]86[.]80[.]145:1224`), BeaverT
 **BeaverTail Functionality:**
 
 ```mermaid
-graph LR
+---
+title: "CHANGE_ME_DADDY"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+  look: handDrawn
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    'securityLevel': 'loose',
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
+    'fontFamily': 'American Typewriter',
+    'themeVariables': {
+      'primaryColor': '#25E3',
+      'primaryTextColor': '#F8B229',
+      'lineColor': '#F8B229',
+      'primaryBorderColor': '#22E6',
+      'secondaryColor': '#D9B2',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart LR
     A["BeaverTail Executes on Victim Machine"] --> B{"OS Detection"}
     B -- Windows --> C1["Target <b>Windows-specific artifacts</b>"]
     B -- macOS --> C2["Target <b>macOS Keychain</b>, etc."]
     B -- Linux --> C3["Target <b>Linux-specific artifacts</b>"]
 
     subgraph DataTheft["Information Stealing"]
+    style DataTheft fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         C1 --> D["Scan ~200 Browser Profiles<br/>(Brave, Chrome, Opera)"]
         C2 --> D
         C3 --> D
@@ -286,6 +455,7 @@ graph LR
     end
 
     subgraph LoaderFunction["Third-Stage Loader"]
+    style LoaderFunction fill:#22F2,stroke:#333,stroke-width:1px, color: #FFFF
         A --> G["Use <code>curl</code> <br/>or<br/> <b>Node.js</b> <code>request</code> module"]
         G --> H["Download Third-Stage Payload<br/>(e.g., <b>InvisibleFerret</b>)"]
         H --> I["Save as <code>p.zi</code> / <code>p2.zip</code>"]
@@ -293,16 +463,18 @@ graph LR
         J --> K["Execute InvisibleFerret Backdoor 🕵️"]
     end
 
-    style A fill:#FFA07A,stroke:#333,stroke-width:2px
-    style K fill:#FF4500,stroke:#333,stroke-width:2px
-    style DataTheft fill:#E0FFFF,stroke:#008080,stroke-width:1px
-    style LoaderFunction fill:#FFF0F5,stroke:#DB7093,stroke-width:1px
+    style A fill:#F27A,stroke:#333,stroke-width:2px
+    style K fill:#F452,stroke:#333,stroke-width:2px
+    %% style DataTheft fill:#E0FFFF,stroke:#008080,stroke-width:1px
+    %% style LoaderFunction fill:#FFF0F5,stroke:#DB7093,stroke-width:1px
     style X fill:#FFB6C1,stroke:#333,stroke-width:1px
 ```
+
 
 ### Stage 3: InvisibleFerret Backdoor 🕵️
 
 This is the third-stage payload downloaded and executed by BeaverTail. It provides the attackers with persistent, deeper control over the compromised system.
+
 
 ### 🔄 Overall Malware Staging
 
