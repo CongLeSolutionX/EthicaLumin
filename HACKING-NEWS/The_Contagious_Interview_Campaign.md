@@ -200,7 +200,7 @@ flowchart TD
     D --> P5
     D --> P6
 
-    X["Full list of packages available in the<br>[Socket report](https://socket.dev/blog/north-korean-contagious-interview-campaign-drops-35-new-malicious-npm-packages) and article."]
+    X["Full list of packages available in the <a href='https://socket.dev/blog/north-korean-contagious-interview-campaign-drops-35-new-malicious-npm-packages'>Socket report and article</a>."]
     C --> X
 
     classDef stats fill:#eff2,stroke:#333,stroke-width:1px,padding:10px,rounded-corners:5px;
@@ -281,9 +281,9 @@ flowchart TD
 
 _Conceptual Malware Progression:_
 
-	$$
-	\text{npm Package} \xrightarrow{\text{contains}} \text{HexEval} \xrightarrow{\text{delivers}} \text{BeaverTail} \xrightarrow{\text{delivers}} \text{InvisibleFerret}
-	$$
+$$
+\text{npm Package} \xrightarrow{\text{contains}} \text{HexEval} \xrightarrow{\text{delivers}} \text{BeaverTail} \xrightarrow{\text{delivers}} \text{InvisibleFerret}
+$$
 
 ---
 
@@ -439,7 +439,8 @@ The "Contagious Interview" campaign and its npm-based offshoots underscore the p
 
 ----
 
-For further details, refer to the original article and the [Socket research](https://socket.dev/blog/north-korean-contagious-interview-campaign-drops-35-new-malicious-npm-packages).
+> [!TIP]
+> For further details, refer to the original article and the [Socket research](https://socket.dev/blog/north-korean-contagious-interview-campaign-drops-35-new-malicious-npm-packages).
 
 
 -----
