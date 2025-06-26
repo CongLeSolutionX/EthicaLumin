@@ -5,7 +5,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/YourUsername/EthicaLumin/)
 
-Copyright (c) 2025 Cong Le. All Rights Reserved.
+Copyright © 2025 Cong Le. All Rights Reserved.
 
 ----
 
