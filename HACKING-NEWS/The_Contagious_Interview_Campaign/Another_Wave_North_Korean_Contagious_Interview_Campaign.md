@@ -11,13 +11,9 @@ source: https://socket.dev/blog/north-korean-contagious-interview-campaign-drops
   <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
   <i>This is a working draft in progress.</i>
   <br/>
-  <img alt="Loading…" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFzdGxnaTI2Z2cwa3Z2ZHkxeHN6cWw5NWt1eTBiMGFzYnE3dXByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg9fAQryp5fMY/giphy.gif"/>
+  <img alt="Loading…" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWk3YzM1aTduY2Rpbm5jZGF3bzlhdjNzZzFuZ2hoNnRrNmZlMG92diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FEYf7PQxi4Z7G5wn3Q/giphy.gif"/>
   <br/>
   <blockquote>
-	  <em>The scene is from the series <b>Mr. Robot</b>
-    <br/>
-    <a href="https://www.usanetwork.com/mr-robot">Mr. Robot Official Site</a></em>
-	  <br/>
 	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
     <br/>
   </blockquote>
